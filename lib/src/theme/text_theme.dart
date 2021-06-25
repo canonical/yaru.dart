@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+part of '../contracts/themeable.dart';
 
-final TextTheme textTheme = TextTheme(
+const _textTheme = TextTheme(
   headline1: _UbuntuTextStyle(
     fontSize: 96,
     letterSpacing: -1.5,
@@ -11,11 +11,18 @@ final TextTheme textTheme = TextTheme(
     letterSpacing: -0.5,
     fontWeight: FontWeight.w300,
   ),
-  headline3: _UbuntuTextStyle(fontSize: 48),
-  headline4: _UbuntuTextStyle(fontSize: 34),
+  headline3: _UbuntuTextStyle(
+    fontSize: 48,
+    fontWeight: FontWeight.normal,
+  ),
+  headline4: _UbuntuTextStyle(
+    fontSize: 34,
+    fontWeight: FontWeight.normal,
+  ),
   headline5: _UbuntuTextStyle(
     fontSize: 24,
     letterSpacing: -0.18,
+    fontWeight: FontWeight.normal,
   ),
   headline6: _UbuntuTextStyle(
     fontSize: 20,
@@ -25,6 +32,7 @@ final TextTheme textTheme = TextTheme(
   subtitle1: _UbuntuTextStyle(
     fontSize: 16,
     letterSpacing: 0.15,
+    fontWeight: FontWeight.normal,
   ),
   subtitle2: _UbuntuTextStyle(
     fontSize: 14,
@@ -34,10 +42,12 @@ final TextTheme textTheme = TextTheme(
   bodyText1: _UbuntuTextStyle(
     fontSize: 16,
     letterSpacing: 0.5,
+    fontWeight: FontWeight.normal,
   ),
   bodyText2: _UbuntuTextStyle(
     fontSize: 14,
     letterSpacing: 0.25,
+    fontWeight: FontWeight.normal,
   ),
   button: _UbuntuTextStyle(
     fontSize: 14,
@@ -47,10 +57,12 @@ final TextTheme textTheme = TextTheme(
   caption: _UbuntuTextStyle(
     fontSize: 12,
     letterSpacing: 0.4,
+    fontWeight: FontWeight.normal,
   ),
   overline: _UbuntuTextStyle(
     fontSize: 10,
     letterSpacing: 1.5,
+    fontWeight: FontWeight.normal,
   ),
 );
 
